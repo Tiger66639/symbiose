@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Symbiose by Tiger66639</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Symbiose</h1>
+        <h2>Symbiose, a free and flexible webos.</h2>
+        <a href="https://github.com/Tiger66639/symbiose" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="symbiose-10-beta-5" class="anchor" href="#symbiose-10-beta-5" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://symbiose.fr.cr/">Symbiose 1.0 beta 5</a>
+</h1>
+
+<p><a href="https://travis-ci.org/Tiger66639/symbiose"><img src="https://travis-ci.org/Tiger66639/symbiose.svg" alt="Build Status"></a></p>
+
+<p>This version (beta) is unstable. </p>
+
+<h2>
+<a id="key-features" class="anchor" href="#key-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Key features</h2>
+
+<ul>
+<li>Apps:
+
+<ul>
+<li>Calculator (essential!)</li>
+<li>Brackets code editor</li>
+<li>Basic text editor (<a href="https://en.wikipedia.org/wiki/Gedit">gedit</a>)</li>
+<li>File manager with copy-paste, drag'n'drop, file sharing, searching...</li>
+<li>Google Docs to display and edit your documents</li>
+<li>
+<a href="https://github.com/symbiose/symbiose/wiki/Empathy">Chat app</a> which supports XMPP (Google, Facebook, with multiple accounts and OTR encryption) as well as WebRTC (text messages, file sending, video calls, screencasts...)</li>
+<li>Basic word processor</li>
+<li>Basic multimedia player</li>
+<li>Music player (based on <a href="https://wiki.gnome.org/Apps/Music">GNOME Music</a>)</li>
+<li>Basic web browser</li>
+<li>Terminal (with a basic interpreter)</li>
+<li>Image viewer, archive manager, software centre...</li>
+</ul>
+</li>
+<li>Customizable: themes, background and so on</li>
+<li>Multiple interfaces: Elementary OS, GNOME Shell, GNOME Panel (GNOME 2), Windows 7-like, mobile, CLI</li>
+<li>Easy configuration with a <em>System settings</em> app and simple config files</li>
+<li>Dropbox, Google Drive, FTP, FTPS, SFTP (SSH) integration</li>
+<li>
+<a href="https://github.com/symbiose/symbiose/wiki/LDAP-authentication">LDAP authentication</a> support</li>
+<li>Firefox Marketplace apps integration</li>
+<li>Native GTK3 apps can be displayed on the web desktop using <a href="https://github.com/symbiose/symbiose/wiki/Broadway">Broadway</a>
+</li>
+<li>Available in English, French, German, Italian and Spanish</li>
+<li>WebSocket support</li>
+<li>Can be used in standalone mode (which just requires a static server, no PHP)</li>
+<li>And more!</li>
+</ul>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<p>You can try Symbiose on our website : <a href="http://symbiose.fr.cr/">http://symbiose.fr.cr/</a> (username : <em>demo</em>, password : <em>demo</em>).</p>
+
+<h2>
+<a id="bug-tracker" class="anchor" href="#bug-tracker" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bug tracker</h2>
+
+<p>Have a bug ? Please create an issue here on GitHub : <a href="https://github.com/symbiose/symbiose/issues">https://github.com/symbiose/symbiose/issues</a>.</p>
+
+<h2>
+<a id="installing" class="anchor" href="#installing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installing</h2>
+
+<p>Run the following command on *nix:</p>
+
+<div class="highlight highlight-source-shell"><pre>curl -sS https://symbiose.github.io/symbiose-installer/installer.sh <span class="pl-k">|</span> sh</pre></div>
+
+<p>On Windows or if you prefer a manual installation, see <a href="https://github.com/symbiose/symbiose/wiki/Installing">https://github.com/symbiose/symbiose/wiki/Installing</a>.</p>
+
+<h2>
+<a id="software-requirements" class="anchor" href="#software-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Software requirements</h2>
+
+<ul>
+<li>Server: 
+
+<ul>
+<li>PHP &gt;= 5.3</li>
+<li>Database: optional (off by default)</li>
+</ul>
+</li>
+<li>Client: a fast and modern web browser (e.g. the latest <em>Mozilla Firefox</em>). Tested on:
+
+<ul>
+<li>Firefox (latest version)</li>
+<li>Chromium (latest version)</li>
+<li>Internet Explorer 10+, if you're lucky!</li>
+</ul>
+</li>
+</ul>
+
+<blockquote>
+<p><strong>NB</strong>: Symbiose can also run in standalone mode, which doesn't require PHP.</p>
+</blockquote>
+
+<h2>
+<a id="copyright" class="anchor" href="#copyright" aria-hidden="true"><span class="octicon octicon-link"></span></a>Copyright</h2>
+
+<p>Symbiose is licensed under the MIT License (MIT). A copy of the license is available in <code>LICENSE</code>.</p>
+
+<p>Contact: <a href="mailto:symbiose@emersion.fr">symbiose@emersion.fr</a><br>
+Copyright (C) 2014 Simon Ser</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/Tiger66639/symbiose/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/Tiger66639/symbiose/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/Tiger66639/symbiose"></a> is maintained by <a href="https://github.com/Tiger66639">Tiger66639</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
